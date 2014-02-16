@@ -3261,6 +3261,32 @@
     "clip_size": 1,
     "reload": 1000,
     "valid_mod_locations": [[ "accessories", 4 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+  },
+  {
+    "id": "pistol_cap_and_ball",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Cap and Ball revolver",
+    "description": "A crude 6 shot single action revolver useing black powder.If using this doesn't makes you feel a cowboy, nothing will.",
+    "price": 350,
+    "material": ["iron", "wood"],
+	"flags": ["RELOAD_ONE"],
+    "skill": "pistol",
+    "ammo": "ammo_flintlock",
+    "weight": 753,
+    "volume": 4,
+    "bashing": 5,
+    "cutting": 0,
+    "to_hit": -1,
+    "ranged_damage": 0,
+    "range": 0,
+    "dispersion": 10,
+    "recoil": 8,
+    "durability": 6,
+    "burst": 0,
+    "clip_size": 6,
+    "reload": 1000,
+    "valid_mod_locations": [[ "accessories", 2 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ],[ "barrel", 1 ]]
   }
-
-]
+  ]
